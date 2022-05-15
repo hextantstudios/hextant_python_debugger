@@ -1,4 +1,4 @@
-# Copyright 2021 by Hextant Studios. https://HextantStudios.com
+# Copyright 2022 by Hextant Studios. https://HextantStudios.com
 # This work is licensed under GNU General Public License Version 3.
 # License: https://download.blender.org/release/GPL3-license.txt
 
@@ -22,7 +22,7 @@ bl_info = {
 
 import bpy, sys, os, site, subprocess, importlib
 from bpy.types import Operator, AddonPreferences
-from bpy.props import StringProperty, IntProperty
+from bpy.props import IntProperty
 
 # The global debugpy module (imported when the server is started).
 debugpy = None
