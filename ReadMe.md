@@ -2,7 +2,7 @@
 
 Allows debugging of Blender Python add-ons using Visual Studio Code or Visual Studio 2019 v16.6 or later.
 
-Debugging Blender add-ons can be a bit painful without a proper debugger. This add-on (inspired by the [Blender Debugger for VS Code](https://github.com/AlansCodeLog/blender-debugger-for-vscode) add-on) uses the [debugpy](https://github.com/microsoft/debugpy) package to start a debug server inside Blender on a specific port. VS Code or Visual Studio can then be used to attach to it to set breakpoints, inspect local variables, or evaluate custom expressions.
+Finding and fixing bugs in Blender add-ons can be a bit painful without a proper debugger. This add-on (inspired by the [Blender Debugger for VS Code](https://github.com/AlansCodeLog/blender-debugger-for-vscode) add-on) installs the [debugpy](https://github.com/microsoft/debugpy) package and adds a menu item to start a debug server inside Blender on a specific port. Visual Studio Code or Visual Studio 2019+ can then be used to attach to it to set breakpoints, inspect local variables, or evaluate custom expressions.
 
 ## Installation
 
